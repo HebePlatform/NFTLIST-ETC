@@ -1,0 +1,65 @@
+[
+  {
+    "name": "HENS",
+    "contract": "0x8474D3346441F85668C1dDAB46ff2D1Af1531698",
+    "img": "https://json.hens.domains/hens/",
+    "type": "/hens.jpg",
+    "url": "",
+    "sum": 0,
+    "srcList": []
+  },
+  {
+    "name": "ETCLazylions",
+    "contract": "0x8F1BEA297e1ab79ae1db163B611Bd93A37d28E21",
+    "img": "https://ipfs.io/ipfs/QmZ6byMqy6ejbkVZknYAvgcdZLzXwMerY9B63QXbQhFBJP/",
+    "type": ".png",
+    "url": "",
+    "sum": 0,
+    "srcList": []
+  },
+  {
+    "name": "ETCBayc",
+    "contract": "0x59E34EF31049565D041Aec6137F40f518c2D47c1",
+    "img": "https://storageapi.fleek.co/facccd1b-5876-4e2d-938f-cfa73c22a990-bucket/bayc/",
+    "type": ".png",
+    "url": "",
+    "sum": 0,
+    "srcList": []
+  },
+  {
+    "name": "ETCPunks",
+    "contract": "0x273Bc20299976Fb0BA58A991cb60a27E8Cdc8685",
+    "img": "https://etczunks.mypinata.cloud/ipfs/QmWgQuJogq4KaEsM5cR9Peot8XzSJ7WpsW5QFcob1P2VXB/",
+    "type": ".png",
+    "url": "",
+    "sum": 0,
+    "srcList": []
+  },
+  {
+    "name": "ClassicSavages",
+    "contract": "0x92c2230863a1773F27729971aDA931934d5c75b9",
+    "img": "https://classicsavages.mypinata.cloud/ipfs/QmYg72GMK3qrnnikbrB7cRMZed1hgogFbwfNxT7vfsxxKD/",
+    "type": ".jpeg",
+    "url": "",
+    "sum": 0,
+    "srcList": []
+  },
+  {
+    "name": "MoonLama",
+    "contract": "0xd97569E5Fa27F9Ea8fa031fb563a2542A542510e",
+    "img": "https://storageapi.fleek.co/1ff1d653-422c-425d-8c5b-60a093a3fd66-bucket/moonlama/",
+    "type": ".png",
+    "url": "",
+    "sum": 0,
+    "srcList": []
+  },
+  {
+    "name": "ETCBitPixel",
+    "contract": "0x36ad158856992F9b8e94C84b161190026101d9C7",
+    "img": "https://gateway.pinata.cloud/ipfs/QmZTvxWGq1Re9CpYmtYiQnXCtBRc93z5jc7KcXoFaLFq9h/",
+    "type": ".png",
+    "url": "",
+    "sum": 0,
+    "srcList": []
+  }
+]
