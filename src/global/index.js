@@ -1,6 +1,6 @@
 const web3Utils = require('web3-utils')
 const web3ethabi = require('web3-eth-abi')
-const Hsn = '0x8474D3346441F85668C1dDAB46ff2D1Af1531698'
+const Hsn = '0x03f4a95d964d364614E514e8638d61CDEed4f8D4'
 const HsnResolver = '0x30BEF52d5ca70B445994C5Ee238E760342edA66D'
 
 const rpc = 'https://ethercluster.com/etc'
