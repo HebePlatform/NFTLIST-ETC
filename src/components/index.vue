@@ -55,7 +55,6 @@
       async login() {
         if (typeof (ethereum) !== 'undefined') {
           this.addr = await this.$g.etclogin()
-          this.addr='0x1D1cd13718505A6de07262c9aa5Cb7C54C421848'
           if (this.addr != '') {
             this.hensname = await this.$g.getNameOfOwner(this.addr)
             this.activeNames = []
