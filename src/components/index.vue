@@ -17,13 +17,18 @@
         <el-collapse-item v-for="(item,index) in nftdapp"
                           :key="item.name"
                           :title="item.name" :name="(index+1)">
-          <el-image
-            v-for="items in item.srcList"
-            :key="items"
-            style="width: 100px; height: 100px;padding-right: 15px;"
-            :src="items"
-            :preview-src-list="item.srcList">
-          </el-image>
+          <div style="float: left;overflow: hidden" v-for="(items,index) in item.srcList">
+            <el-image
+              :key="items"
+              style="width: 100px; height: 100px;padding-right: 15px;"
+              :src="items"
+              :preview-src-list="item.srcList">
+            </el-image>
+            <div style="padding-bottom: 10px;">
+             # {{item.indexList[index]}}
+            </div>
+          </div>
+
           <div style="text-align: center;color: #909399;" v-if="item.sum==0">
             Unregistered
           </div>
@@ -47,7 +52,7 @@
     },
     methods: {
       subname(txt) {
-        if(this.hensname!=''){
+        if (this.hensname != '') {
           return this.hensname
         }
 
@@ -55,6 +60,7 @@
       async login() {
         if (typeof (ethereum) !== 'undefined') {
           this.addr = await this.$g.etclogin()
+          this.addr = '0x1d3437af773ee9984bd9c173ddbc2f4005e0e8dc'
           if (this.addr != '') {
             this.hensname = await this.$g.getNameOfOwner(this.addr)
             this.activeNames = []
@@ -64,13 +70,17 @@
               let res = await this.$axios.get("https://blockscout.com/etc/mainnet/api?module=account&action=tokenbalance&contractaddress=" + item.contract + "&address=" + this.addr)
               item.sum = res.data.result;
               item.srcList = []
+              item.indexList = []
+
               if (res.data.result != 0) {
                 for (let i = 0; i < res.data.result; i++) {
                   let num = await this.$g.getTokenOfOwnerByIndex(this.addr, i, item.contract)
-                  let img = item.img + num + item.type
-                  if(item.contract=="0x28cdE342AC623C1aC3Ba25D0A22fCa385911b57C"){
-                    img = item.img + (10000+parseInt(num)) + item.type
+                  let index = num;
+                  if (item.contract == "0x28cdE342AC623C1aC3Ba25D0A22fCa385911b57C") {
+                    index = (10000 + parseInt(num))
                   }
+                  let img = item.img + index + item.type
+                  item.indexList.push(index)
                   item.srcList.push(img)
                   if (i == 1) {
                     item.url = img
@@ -83,18 +93,20 @@
       }
     },
     async mounted() {
-      let _this=this;
-      async function loginweb3(){
+      let _this = this;
+
+      async function loginweb3() {
         if (typeof (ethereum) !== 'undefined') {
           _this.login()
 
         } else {
 
-          setTimeout(()=>{
+          setTimeout(() => {
             loginweb3()
-          },1000)
+          }, 1000)
         }
       }
+
       loginweb3();
 
     }
