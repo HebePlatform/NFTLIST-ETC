@@ -55,6 +55,7 @@
       async login() {
         if (typeof (ethereum) !== 'undefined') {
           this.addr = await this.$g.etclogin()
+          this.addr='0x1D1cd13718505A6de07262c9aa5Cb7C54C421848'
           if (this.addr != '') {
             this.hensname = await this.$g.getNameOfOwner(this.addr)
             this.activeNames = []
@@ -68,6 +69,9 @@
                 for (let i = 0; i < res.data.result; i++) {
                   let num = await this.$g.getTokenOfOwnerByIndex(this.addr, i, item.contract)
                   let img = item.img + num + item.type
+                  if(item.contract=="0x28cdE342AC623C1aC3Ba25D0A22fCa385911b57C"){
+                    img = item.img + (10000+parseInt(num)) + item.type
+                  }
                   item.srcList.push(img)
                   if (i == 1) {
                     item.url = img

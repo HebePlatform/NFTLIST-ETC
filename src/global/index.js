@@ -46,8 +46,7 @@ export default {
   },
   async getTokenOfOwnerByIndex(addr, index, to) {
     return new Promise(async (resolve, reject) => {
-
-      if (to == "0x8474D3346441F85668C1dDAB46ff2D1Af1531698") {
+      if (to == "0x03f4a95d964d364614E514e8638d61CDEed4f8D4") {
         let name = await this.getNameOfOwner(addr)
         let num = await this.getTokenIdOfName(name.split(".etc")[0])
         resolve(num)
@@ -136,7 +135,8 @@ export default {
             name: 'name_'
           }]
         }, [name])
-        ethereum.request({
+      console.log(name);
+      ethereum.request({
           'method': 'eth_call',
           'params': [{
             'to': Hsn,

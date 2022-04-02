@@ -56,7 +56,16 @@
   {
     "name": "ETCBitPixel",
     "contract": "0x36ad158856992F9b8e94C84b161190026101d9C7",
-    "img": "https://gateway.pinata.cloud/ipfs/QmZTvxWGq1Re9CpYmtYiQnXCtBRc93z5jc7KcXoFaLFq9h/",
+    "img": "https://ipfs.io/ipfs/QmZTvxWGq1Re9CpYmtYiQnXCtBRc93z5jc7KcXoFaLFq9h/",
+    "type": ".png",
+    "url": "",
+    "sum": 0,
+    "srcList": []
+  },
+  {
+    "name": "ETCZunks",
+    "contract": "0x28cdE342AC623C1aC3Ba25D0A22fCa385911b57C",
+    "img": "https://etczunks.mypinata.cloud/ipfs/bafybeieqfgajmzbvz3eglrtudy7n6rcf4tmlx3znktvqjlhrp3ppti4y2a/",
     "type": ".png",
     "url": "",
     "sum": 0,
