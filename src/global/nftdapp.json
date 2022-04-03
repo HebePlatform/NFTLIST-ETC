@@ -20,7 +20,7 @@
   {
     "name": "ETCBayc",
     "contract": "0x59E34EF31049565D041Aec6137F40f518c2D47c1",
-    "img": "https://storageapi.fleek.co/facccd1b-5876-4e2d-938f-cfa73c22a990-bucket/bayc/",
+    "img": "https://etcbayc.com/assets/BaycImages/etcbg/",
     "type": ".png",
     "url": "",
     "sum": 0,
@@ -47,7 +47,7 @@
   {
     "name": "MoonLama",
     "contract": "0xd97569E5Fa27F9Ea8fa031fb563a2542A542510e",
-    "img": "https://storageapi.fleek.co/1ff1d653-422c-425d-8c5b-60a093a3fd66-bucket/moonlama/",
+    "img": "https://moonlama.s3.eu-central-1.amazonaws.com/",
     "type": ".png",
     "url": "",
     "sum": 0,
