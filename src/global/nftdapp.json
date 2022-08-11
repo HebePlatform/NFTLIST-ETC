@@ -11,7 +11,7 @@
   {
     "name": "ETCLazylions",
     "contract": "0x8F1BEA297e1ab79ae1db163B611Bd93A37d28E21",
-    "img": "https://ipfs.io/ipfs/QmZ6byMqy6ejbkVZknYAvgcdZLzXwMerY9B63QXbQhFBJP/",
+    "img": "https://etczunks.mypinata.cloud/ipfs/QmZ6byMqy6ejbkVZknYAvgcdZLzXwMerY9B63QXbQhFBJP/",
     "type": ".png",
     "url": "",
     "sum": 0,
@@ -56,7 +56,7 @@
   {
     "name": "ETCBitPixel",
     "contract": "0x36ad158856992F9b8e94C84b161190026101d9C7",
-    "img": "https://ipfs.io/ipfs/QmZTvxWGq1Re9CpYmtYiQnXCtBRc93z5jc7KcXoFaLFq9h/",
+    "img": "https://etczunks.mypinata.cloud/ipfs/QmZTvxWGq1Re9CpYmtYiQnXCtBRc93z5jc7KcXoFaLFq9h/",
     "type": ".png",
     "url": "",
     "sum": 0,
@@ -66,6 +66,78 @@
     "name": "ETCZunks",
     "contract": "0x28cdE342AC623C1aC3Ba25D0A22fCa385911b57C",
     "img": "https://etczunks.mypinata.cloud/ipfs/bafybeieqfgajmzbvz3eglrtudy7n6rcf4tmlx3znktvqjlhrp3ppti4y2a/",
+    "type": ".png",
+    "url": "",
+    "sum": 0,
+    "srcList": []
+  },
+  {
+    "name": "ETCMayc",
+    "contract": "0x69ACB3240cce53d6293619e6AF784Fdda777e45d",
+    "img": "https://etcmayc.com/api/mutants/",
+    "type": ".png",
+    "url": "",
+    "sum": 0,
+    "srcList": []
+  },
+  {
+    "name": "MRETC",
+    "contract": "0x061505723E523f905Cb0382751D731C6b01a4C7E",
+    "img": "https://etczunks.mypinata.cloud/ipfs/QmaS9CrT5bFv65mvqMTrTX5CAyvuqBM76sNji6P8uy1Ves/",
+    "type": ".png",
+    "url": "",
+    "sum": 0,
+    "srcList": []
+  },
+  {
+    "name": "Baby-Swaggos",
+    "contract": "0x40d6c28f62895Dd121a9BE654D363Af92ad8B8c8",
+    "img": "https://etczunks.mypinata.cloud/ipfs/QmWaZEfkBXPYuiUBQ6mgE9VBRAXQ6ZNCtfwFvw74bKRHpo/",
+    "type": ".png",
+    "url": "",
+    "sum": 0,
+    "srcList": []
+  },
+  {
+    "name": "DreamGirls",
+    "contract": "0x36935F7D0Ee6cCb7f54f77517704A612067B3647",
+    "img": "https://etczunks.mypinata.cloud/ipfs/QmRZs67a2vwWGNNz9ixnhUDsWrQaMyomD6HYusp3uvzR36/",
+    "type": ".png",
+    "url": "",
+    "sum": 0,
+    "srcList": []
+  },
+  {
+    "name": "ClassicHomelessSociety",
+    "contract": "0x65991015B961Bd242C076b1d81A08B5ED50842a0",
+    "img": "https://etczunks.mypinata.cloud/ipfs/QmUPtUacTEJBYBXifxf26ox1vyx4nCG7xmnbV3N1fmErxE/",
+    "type": ".png",
+    "url": "",
+    "sum": 0,
+    "srcList": []
+  },
+  {
+    "name": "Flying Swaggos",
+    "contract": "0xe8A862BAFC1B914d1Dd64BA2cAe3c60a239735bF",
+    "img": "https://etczunks.mypinata.cloud/ipfs/QmXhqYv1U7h21voNcKDS29LZWYYqr9fBSX8fj7gktePMwt/",
+    "type": ".png",
+    "url": "",
+    "sum": 0,
+    "srcList": []
+  },
+  {
+    "name": "World of Women",
+    "contract": "0xc96852a97DFf14e02eeeF70C3F690fF8715d7AcA",
+    "img": "https://etczunks.mypinata.cloud/ipfs/QmXHruLTycyd1Lohdmg7tkLPU6RLLbzx26tKZ7Au2QJz3J/",
+    "type": ".png",
+    "url": "",
+    "sum": 0,
+    "srcList": []
+  },
+  {
+    "name": "MonkeyDoo",
+    "contract": "0xE86ae8f38372d26F8ffAC37deba733a77f101Ac7",
+    "img": "https://etczunks.mypinata.cloud/ipfs/QmZn2zhsx23yAm8Pi5fHpsfWFTYKRikgdHvGmB8ymQBQSc/",
     "type": ".png",
     "url": "",
     "sum": 0,
