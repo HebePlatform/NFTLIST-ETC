@@ -151,5 +151,14 @@
     "url": "",
     "sum": 0,
     "srcList": []
+  },
+  {
+    "name": "ClassicBogs",
+    "contract": "0x5925630e4D0AB569A40E600064Da2930b4838Da3",
+    "img": "https://etczunks.mypinata.cloud/ipfs/QmdHWsMWde4UCTiQJojN2ed3rBmxFAsjQkKZDi4dCZZB3F/",
+    "type": ".png",
+    "url": "",
+    "sum": 0,
+    "srcList": []
   }
 ]
