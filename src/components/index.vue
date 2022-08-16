@@ -25,7 +25,7 @@
               :preview-src-list="item.srcList">
             </el-image>
             <div style="padding-bottom: 10px;">
-             # {{item.indexList[index]}}
+              # {{item.indexList[index]}}
             </div>
           </div>
 
@@ -70,7 +70,17 @@
               item.sum = res.data.result;
               item.srcList = []
               item.indexList = []
-
+              // for (let i = 1; i <= 3; i++) {
+              //   let num = i
+              //   let index = num;
+              //   if (item.contract == "0x28cdE342AC623C1aC3Ba25D0A22fCa385911b57C") {
+              //     index = (10000 + parseInt(num))
+              //   }
+              //   let img = item.img + index + item.type
+              //   item.indexList.push(index)
+              //   item.srcList.push(img)
+              //
+              // }
               if (res.data.result != 0) {
                 for (let i = 0; i < res.data.result; i++) {
                   let num = await this.$g.getTokenOfOwnerByIndex(this.addr, i, item.contract)

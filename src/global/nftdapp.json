@@ -142,5 +142,14 @@
     "url": "",
     "sum": 0,
     "srcList": []
+  },
+  {
+    "name": "ETC Prime Ape Society",
+    "contract": "0x8a616e6c717f3117b48e9c6e55aaafc9c706711d",
+    "img": "https://etczunks.mypinata.cloud/ipfs/QmQCkhA5FErD2D6PX958GfeJDNK8VEzAvUXYjV2FAL57Da/",
+    "type": ".png",
+    "url": "",
+    "sum": 0,
+    "srcList": []
   }
 ]
