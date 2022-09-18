@@ -160,5 +160,23 @@
     "url": "",
     "sum": 0,
     "srcList": []
+  },
+  {
+    "name": "Classic Droids",
+    "contract": "0x8e9cCd34516c18e1A2d4451E45e8048F55c320DE",
+    "img": "https://storageapi.fleek.co/1ff1d653-422c-425d-8c5b-60a093a3fd66-bucket/classic-droids/",
+    "type": ".jpg",
+    "url": "",
+    "sum": 0,
+    "srcList": []
+  },
+  {
+    "name": "Classic Aliens",
+    "contract": "0x8DA936353c6d3ed538138490E54F735Be19C5b7d",
+    "img": "https://storageapi.fleek.co/1ff1d653-422c-425d-8c5b-60a093a3fd66-bucket/classic-aliens/",
+    "type": ".jpg",
+    "url": "",
+    "sum": 0,
+    "srcList": []
   }
 ]
